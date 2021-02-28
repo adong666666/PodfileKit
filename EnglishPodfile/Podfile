@@ -1,0 +1,340 @@
+source 'https://github.com/CocoaPods/Specs.git'
+# Minimum supported iOS system version
+platform:ios,'13.0'
+use_frameworks!
+# Inhibit the warning of the third party library
+inhibit_all_warnings!
+
+def thirdParty
+  # eg. # AR Video
+  # Git specifies the web address, branch specifies the branch, commit specifies the submitted version, tag specifies the marked submitted version and inhibit_ Warnings to avoid warnings from a single framework
+  # pod 'ARVideoKit', :git => 'https://github.com/AFathi/ARVideoKit.git', :branch => 'swift_5', commit: "b7e1facdedd8fe16d04ef5f47c4697e89bad9f27",'~> 5.0', :tag => '1.6.0', :inhibit_warnings => true
+  
+  # Network Request
+  # pod 'Alamofire'
+  # pod 'Moya'
+  # pod 'AlamofireObjectMapper'
+  
+  # JSON Parsing
+  # pod 'SwiftyJSON'
+  # pod 'HandyJSON'
+  # pod 'Argo'
+  # pod 'Sync'
+  
+  # Detect Network Status
+  # pod 'ReachabilitySwift'
+  
+  # Data Stream
+  # pod 'RxSwift'
+  # pod 'RxCocoa'
+  # pod 'ObjectMapper'
+  # pod 'ReSwift'
+  # pod 'ReactiveSwift'
+  # pod 'ReactorKit'
+  
+  # Internet Pictures
+  # pod 'Kingfisher'
+  
+  # Layout
+  # pod 'SnapKit'
+  # pod 'Cartography'
+  # pod 'Neon'
+  # pod 'AnimatedCollectionViewLayout'
+  # pod "BouncyLayout"
+  # pod 'TangramKit'
+  # pod 'TinyConstraints'
+  # pod 'LayoutKit'
+  # pod 'SteviaLayout'
+  
+  # Animation
+  # pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
+  # pod 'lottie-ios'
+  # pod 'ViewAnimator'
+  # pod 'Advance'
+  # pod 'Pastel'
+  # pod 'YapAnimator'
+  
+  # Transition
+  # pod 'Hero'
+  # pod 'Transition'
+  # pod 'Jelly'
+  
+  # Code Rules
+  # pod 'SwiftLint'
+  
+  # UserDefault
+  # pod 'SwiftyUserDefaults'
+  
+  # Data Base
+  # pod 'SQLite.swift'
+  # pod 'GRDB.swift'
+  # pod 'FMDB'
+  # pod 'RealmSwift'
+  # pod 'YapDatabase'
+  # pod 'CoreStore'
+  
+  # Extension
+  # pod 'SwifterSwift'
+  ## pod 'SwifterSwift/SwiftStdlib'
+  ## pod 'SwifterSwift/Foundation'
+  ## pod 'SwifterSwift/UIKit'
+  ## pod 'SwifterSwift/AppKit'
+  ## pod 'SwifterSwift/MapKit'
+  ## pod 'SwifterSwift/CoreGraphics'
+  ## pod 'SwifterSwift/CoreLocation'
+  ## pod 'SwifterSwift/SpriteKit'
+  ## pod 'SwifterSwift/SceneKit'
+  ## pod 'SwifterSwift/StoreKit'
+  ## pod 'SwifterSwift/Dispatch'
+  # pod 'Then'
+  ### Use 'SwiftUIX'
+  # pod 'EZSwiftExtensions'
+  
+  # Resources (picture, color, localized string)
+  # pod 'R.swift'
+  # pod 'SwiftGen'
+  
+  # Monitor
+  # pod 'Crashlytics'
+  # pod 'Fabric'
+  # pod 'Bugly'
+ 
+  # Bind
+  # pod 'bond'
+  
+  # Alert
+  # pod 'JGProgressHUD'
+  # pod 'SwiftMessages'
+  # pod 'SwiftEntryKit'
+  # pod 'SPPermissions'
+  # pod 'NotificationBanner'
+  # pod 'Whisper'
+  # pod 'PopupDialog'
+  # pod 'Toast-Swift'
+  
+  # Side Menu
+  # pod 'SideMenu'
+  # pod 'YALSideMenu'
+  
+  # Drop-down Menu
+  # pod 'BTNavigationDropdownMenu'
+  
+  # Pagination Menu
+  # pod 'Parchment'
+  # pod 'Tabman'
+  
+  # UI Controls
+  # pod 'LYEmptyView'
+  # pod 'CollectionKit'
+  # pod 'DifferenceKit'
+  # pod 'ACBadge'
+  # pod 'LTMorphingLabel'
+  # pod 'SkeletonView'
+  # pod 'NVActivityIndicatorView'
+  # pod 'FSPagerView'
+  # pod 'TextFieldEffects'
+  # pod 'SwipeCellKit'
+  # pod 'ScrollableGraphView'
+  # pod 'SCLAlertView'
+  # pod 'SkyFloatingLabelTextField'
+  # pod 'ActiveLabel'
+  # pod 'MarqueeLabel'
+  # pod 'DOFavoriteButton'
+  # pod 'Persei' # top menu for UITableView / UICollectionView / UIScrollView
+  # pod 'XLActionController'
+  # pod 'LNPopupController'
+  # pod 'CHIPageControl'
+  # pod 'EasyTipView'
+  # pod 'CardParts'
+  # pod 'PMAlertController'
+  # pod 'Segmentio'
+  # pod 'HGCircularSlider'
+  # pod 'ZLSwipeableViewSwift'
+  # pod 'ALCameraViewController'
+  # pod 'SwiftSpinner'
+  # pod 'Cosmos'
+  
+  # Scan
+  # pod 'BarcodeScanner'
+  
+  # QR Code
+  # pod 'EFQRCode'
+  
+  # Scan Document
+  # pod 'WeScan'
+  
+  # Color Picker
+  # pod 'ColorSlider'
+  
+  # Prompt for Software Updates
+  # pod 'Siren'
+  
+  # Machine learning Vision
+  # pod 'OpenCV'
+  
+  # Feedback
+  # pod 'PinpointKit'
+  
+  # Log
+  # pod 'SwiftyBeaver'
+  
+  # Encryption
+  # pod 'CryptoSwift'
+  # pod 'RNCryptor'
+  
+  # Internal Purchase
+  # pod 'SwiftyStoreKit'
+  
+  # Calendar
+  # pod 'JTAppleCalendar'
+  # pod 'CVCalendar'
+  
+  # Image Processing
+  # pod 'Nuke'
+  # pod 'Macaw'
+  
+  # Image Picker
+  # pod 'ImagePicker'
+  # pod 'ZLPhotoBrowser'
+  # pod 'YPImagePicker'
+  # pod 'SKPhotoBrowser'
+  
+  # Test
+  # pod 'Quick'
+  # pod 'Nimble'
+  
+  # Storyboard and xib
+  # pod 'IBAnimatable'
+  
+  # Date
+  # pod 'SwiftDate'
+  
+  # Cache
+  # pod 'HanekeSwift'
+  # pod 'Disk'
+  # pod 'Cache'
+  
+  # Mathematics
+  # pod 'Surge'
+  
+  # Multithreading
+  # pod "AsyncSwift"
+  # pod 'Hydra'
+  # pod 'BrightFutures'
+  
+  # Dependency Injection
+  # pod 'Swinject'
+  # pod 'Typhoon'
+  
+  # Chat
+  # pod 'Chatto'
+  # pod 'ChattoAdditions'
+  
+  # Message
+  # pod 'Messenger'
+  # pod 'MessageKit'
+  
+  # Phone Number
+  # pod 'PhoneNumberKit'
+  
+  # Functional Programming
+  # pod 'Swiftz'
+  
+  # Device
+  # pod 'DeviceKit'
+  
+  # Rich Text
+  # pod 'BonMot'
+  # pod 'SwiftRichString'
+  
+  # Face
+  # pod 'FaceAware'
+  
+  # Geographic Location
+  # pod 'SwiftLocation'
+  
+  # HTML、XML
+  # pod 'SwiftSoup'
+  # pod 'Ono'
+  # pod 'Kanna'
+  
+  # Convenient (uitableviewcells, uicollectionviewcells, convenient reuse, etc)
+  # pod 'Reusable'
+  
+  # Localization
+  # pod 'Localize-Swift'
+  
+  # Gif Support
+  # pod 'Gifu'
+  
+  # Color
+  # pod 'DynamicColor'
+  
+  # Detecting memory leaks, etc
+  # pod 'LifetimeTracker'
+  
+  # Chart
+  # pod 'SwiftCharts'
+  
+  # File Processing
+  # pod 'FileKit'
+  # pod 'Files'
+  
+  # Theme (Adapt to Dark Mode)
+  # pod 'SwiftTheme'
+  
+  # The status bar displays information such as FPS, CPU and memory usage, device model, app and iOS versions
+  # pod 'GDPerformanceView-Swift'
+  
+  # Camera and Microphone
+  # pod 'HaishinKit.swift'
+  
+  # Download
+  # pod 'Tiercel'
+  
+  # Bluetooth
+  # pod 'BluetoothKit'
+  
+  # Compress
+  # pod 'Zip'
+  
+  # Keychain
+  # pod 'KeychainSwift'
+  
+  # Social Sharing
+  # pod 'UMengUshare'
+  ## pod 'UMengUShare/UI'
+  ## pod 'UMengUShare/Social/ReducedWeChat'
+  ## pod 'UMengUShare/Social/ReducedQQ'
+end
+
+def project
+end
+
+def debug
+  # App Interface Debugging
+  # pod 'Reveal-SDK'
+  # pod 'CocoaDebug'
+  
+  # Network Debugging
+  # pod 'Bagel'
+  # pod 'ResponseDetective'
+  
+  # Log
+  # pod 'XCGLogger'
+end
+  # Replace your project name here
+target "ProjectName" do
+  thirdParty
+  project
+  debug
+end
+
+post_install do |installer_representation|
+  installer_representation.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      # Minimum supported iOS system version
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+    end
+  end
+end
